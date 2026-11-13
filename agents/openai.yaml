@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Production Engine"
+  short_description: "Produce videos with reusable channel profiles"
+  default_prompt: "Use $youtube-production-engine to produce a video with a selected channel profile."

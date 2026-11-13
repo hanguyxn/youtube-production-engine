@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "paleon",
+  "ready": true,
+  "name": "Paleon",
+  "audience": "Curious English-speaking viewers interested in ancient daily life, survival and human evolution.",
+  "viewer_promise": "Explain an answerable question about ancient humans using archaeological and scientific evidence.",
+  "topic_scope": [
+    "Prehistory, ancient daily life, survival and human evolution; specify population, location and period."
+  ],
+  "language": "en",
+  "editorial": {
+    "tone": "Clear, curious, conversational; avoid unsupported certainty.",
+    "target_minutes": [
+      6,
+      8
+    ],
+    "evidence_rules": [
+      "Modern hunter-gatherers are not direct recordings of Paleolithic life.",
+      "Distinguish evidence, interpretation and reconstruction.",
+      "Evolution is branching, not a ladder toward modern humans."
+    ]
+  },
+  "voice": {
+    "provider": "kokoro",
+    "id": "am_michael",
+    "speed": 1.0,
+    "language": "en-us"
+  },
+  "visual": {
+    "style_anchor": "Hand-drawn 2D doodle cartoon animation, flat solid colors, bold black hand-drawn outlines, slightly wobbly imperfect marker lines,",
+    "style_lock": "no gradients, no drop shadows, no photographic textures, no photorealism, no 3D render, no anime, 16:9 widescreen, simple educational doodle style.",
+    "character": "Spiky orange hair #F58220, large round white head with black dot eyes and expressive mouth, no nose or ears, flat white tube torso, thin black stick limbs, white mitten hands; supporting humans share this anatomy, differentiated by hair, flat tunics and props. No realistic skin tones or anatomical volume; use simplified labeled anatomy diagrams when needed.",
+    "aspect_ratio": "16:9",
+    "palette": {
+      "orange": "#F58220",
+      "sky": "#7FB5D5",
+      "navy": "#283A6E",
+      "earth": "#8B5A2B",
+      "red": "#E0302B",
+      "yellow": "#F4C430",
+      "cream": "#F5F1E6"
+    },
+    "continuity": "Keep characters and props stable across connected scenes. Use flat color blocks for night and firelight rather than gradients."
+  },
+  "packaging": {
+    "thumbnail_concepts": 5,
+    "angles": [
+      "Survival problem when supported",
+      "Human vulnerability when relevant",
+      "Mystery or discovery",
+      "A practical action or mechanism",
+      "Evidence-backed consequence"
+    ],
+    "style": "Dramatic contrast, dark navy background and short text where supported by the episode. Calm evidence close-ups and comparisons remain valid; no CTR superiority is established.",
+    "overlay_words": [
+      1,
+      3
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

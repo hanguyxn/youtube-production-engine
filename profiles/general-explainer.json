@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "general-explainer",
+  "ready": true,
+  "name": "General explainer",
+  "audience": "Curious English-speaking adults seeking a clear answer to a concrete question.",
+  "viewer_promise": "Understand one useful mechanism through evidence and visual demonstrations.",
+  "topic_scope": [
+    "Answerable questions within a topic selected by the user; verify sources appropriate to that domain."
+  ],
+  "language": "en",
+  "editorial": {
+    "tone": "Clear, curious, conversational; avoid unsupported certainty.",
+    "target_minutes": [
+      6,
+      8
+    ]
+  },
+  "voice": {
+    "provider": "kokoro",
+    "id": "am_michael",
+    "speed": 1.0,
+    "language": "en-us"
+  },
+  "visual": {
+    "style_anchor": "Clean flat editorial illustration,",
+    "style_lock": "simple readable shapes, restrained palette, no photorealism, 16:9 widescreen.",
+    "character": "",
+    "aspect_ratio": "16:9"
+  },
+  "packaging": {
+    "thumbnail_concepts": 3,
+    "angles": [
+      "A revealing demonstration",
+      "A useful comparison",
+      "A surprising piece of evidence"
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}
